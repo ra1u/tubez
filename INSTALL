@@ -1,0 +1,13 @@
+
+headers only libraray
+
+there is example folder that includes performance test also.
+Each file in example can be build as single compilation unit
+
+$ g++ file.cpp --std=c++14 -O2
+
+or you can use cmake from top folder for example
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
